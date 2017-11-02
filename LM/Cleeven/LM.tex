@@ -1,0 +1,137 @@
+%%%-*- coding: utf-8 -*-
+%%% modele.tex --- 
+%%% Author: debjjr@zoe
+%%% Version: $Id: modele.tex,v 0.0 2010/09/08 11:35:31 debjjr Exp$
+%%% Fichier modèle
+\documentclass[a4paper,10pt]{scrlttr2}
+
+%%Package%%
+
+\usepackage{palatino}
+\usepackage[T1]{fontenc}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+%\usepackage{eurosym}
+\usepackage{geometry}
+%\usepackage{graphicx}
+%\usepackage{lmodern}
+%\usepackage{setspace}
+%\usepackage{lipsum}
+
+%Param%%
+
+%\setlength\parskip{\medskipamount}
+%\setlength\parindent{0pt}
+\geometry{verbose,a4paper,lmargin=1cm,rmargin=1cm,bmargin=0.5cm}
+%\setstretch{1.1}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Here you can modify the layout of your letter
+%% Have a look at the KOMA script documentation
+%% for details. Most commands are commented out
+%% here (i.e. we use default settings)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%% Load an *.lco style file (see KOMA documentation)
+\LoadLetterOption{NF}%                          
+
+%% THE CLASS OPTIONS
+%% Remove preceeding '%' to uncomment an item
+\KOMAoptions{%
+%,headsepline=true%            separate the header with a line on page >1
+%,footsepline=true%             separate the footer    with a line on page >1
+%pagenumber=botcenter%   position of the page number (see docu)
+,parskip=false%          Use indent instead of skip (more options cf. docu)
+,fromalign=left%        alignment of the address
+%,fromrule=aftername%    separate the address with a line?
+,fromphone=true%         print sender phone number
+%,fromfax=true%          print sender fax number
+,fromemail=true%           print sender e-mail address
+%,fromurl=true%               print sender URL
+%,fromlogo=true%         print a logo (position depends on fromalign)
+%,addrfield=false%        print an address field?
+%,backaddress=false%  print the back address?
+%,subject=afteropening,titled% alternative subject layout and position
+%,locfield=narrow%      width of the (extra) location field
+,foldmarks=true%      print foldmarks?
+%,numericaldate=true%  date layout
+%,refline=wide%             layout of the refline
+}
+
+%% Customize Separators
+%%\setkomavar{placeseparator}{ -- }
+\setkomavar{backaddressseparator}{ $\cdot$ }
+\setkomavar{emailseparator}{~:~}
+\setkomavar{enclseparator}{ > }
+%\setkomavar{faxseparator}{ --> }
+\setkomavar{phoneseparator}{~:~}
+\setkomavar{subjectseparator}{ >>> }
+
+%% Customize fonts
+%% Use LaTeX's standard font commands
+%% Modify with \setkomafont or \addtokomafont
+%% (see KOMA documentation)
+\setkomafont{backaddress}{\rmfamily}
+%\setkomafont{descriptionlabel}{}
+\setkomafont{fromaddress}{\small}
+\setkomafont{fromname}{\scshape}
+%\setkomafont{pagefoot}{}
+%\setkomafont{pagehead}{}
+%\setkomafont{pagenumber}{}
+%\setkomafont{subject}{}
+%\setkomafont{title}{}
+
+\usepackage{babel}
+
+\begin{document}
+
+\setkomavar{fromname}{Geoffrey Gaillard}
+\setkomavar{fromaddress}{2080 route de Lavillat\\
+  74800 La Roche sur Foron}
+\setkomavar{fromphone}{06.35.24.74.05}
+\setkomavar{fromemail}{geof.gaill@gmail.com}
+%\setkomavar{fromurl}{www.aibavet.fr}
+\setkomavar{backaddress}{}
+%\setkomavar{signature}{\qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad  \quad  \quad \includegraphics[width=2.5cm]{signature}}
+% signature est un fichier image d'un scan de ma signature. On peut le remplacer par du texte, bien évidemment;
+\setkomavar{subject}{Objet : }
+\setkomavar{place}{La Roche sur Foron}
+\setkomavar{date}{le \today}
+
+
+\begin{letter}{Cleeven \\ Services des Resources Humaines}
+
+\pagestyle{empty}
+\opening{Madame, Monsieur,}
+
+%Partie entreprise\\
+
+Diplomé d’école d’Ingénieur de l’UTT en Système Mécanique, j’ai auparavant obtenu un DUT Génie Mécanique et Productique. Par mes deux formations, je suis spécialisé en conception de systèmes mécaniques. La mécanique est la dominante de mon cursus de formation mais durant celle-ci j’ai pu aussi apprendre à me diversifier dans les domaines de l’électrique, l’électronique et l’informatique embarquée.\\
+
+Durant mon DUT GMP, j’ai participé au projet Altaïr 4 (Projet de vélo couché caréné) de l’IUT d’Annecy-le-Vieux. Un vélo conçut pour les hautes vitesses qui participe aux compétions HPV et BattleMoutain. Avec cinq autres étudiants de ma promotion, nous avons re-conçut les plaques du pédalier en fibre de carbone. Nous avons créé des moules en aluminium sous CAO puis usiné en CNC en interne.\\
+
+%Lors de mon stage de fin d’étude en DUT, j’ai travaillé avec les opérateurs, régleurs et les personnes du service maintenance pour trouver des solutions adéquates et ainsi développer et mettre en place des solutions techniques sur une ligne de production dans le cadre de son amélioration continue.\\
+
+J’ai poursuivi mes études en école d’ingénieur à l’UTT. Cette formation m’a permis d’approfondir et d’acquérir des compétences et des connaissances ainsi que de mettre en œuvre ma rigueur et ma créativité afin de ré-soudre des problèmes sur des projets d’écoles et associatifs.\\
+
+J’ai intégré le club Robotik de l’UTT pour participer à la Coupe de France de robotique (conception,développement,réalisation).\\
+
+Concernant mon stage de milieu d’étude, j’ai travaillé en autonomie et en collaboration avec des laborantins sur des questions de normes et méthodes d’essais, ainsi qu’avec un ingénieur informaticien/électricien pour la réalisation d’armoires électriques. J’ai aussi travaillé avec un sous-traitant pour la réalisation de pièces mécaniques.\\
+
+Ces expériences professionnelles ont renforcé mon envie de travailler dans le développement de systèmes complexes et pluridisciplinaires pour répondre à des besoins et des problématiques industriels.\\
+
+Je reste à votre disposition pour de plus amples renseignements lors d’un entretien.\\
+Je vous prie d’agréer Monsieur, l’expression de mes salutations distinguées.
+
+\begin{flushright}
+\\[6ex] Geoffrey \textsc{Gaillard}
+\end{flushright}
+
+%\encl{fichier inclus}
+\end{letter}
+\end{document}
