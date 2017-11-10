@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.2)  10 NOV 2017 18:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.2)  10 NOV 2017 18:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **LM.tex
-(/home/vanell/Documents/CV-LM/LM/Avenao/LM.tex
+(/home/vanell/Documents/CV-LM/LM/Ortec/LM.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlttr2.cls
@@ -145,7 +145,7 @@ Class scrlttr2 Info: Letter-Class-Option `NF' loaded on input line 41.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/NF.lco
 File: NF.lco 2015/10/03 v3.19a KOMA-Script letter-class-option
 )
-(/home/vanell/Documents/CV-LM/LM/Avenao/LM.aux)
+(/home/vanell/Documents/CV-LM/LM/Ortec/LM.aux)
 \openout1 = `LM.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
@@ -377,21 +377,21 @@ or  <return>  to continue without it.
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-(/home/vanell/Documents/CV-LM/LM/Avenao/LM.aux) ) 
+(/home/vanell/Documents/CV-LM/LM/Ortec/LM.aux) ) 
 Here is how much of TeX's memory you used:
  3840 strings out of 493029
- 53982 string characters out of 6136234
+ 53973 string characters out of 6136234
  194256 words of memory out of 5000000
  7374 multiletter control sequences out of 15000+600000
  11314 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,6n,50p,571b,631s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist
-/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/pal
-atino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a
-.pfb>
-Output written on /home/vanell/Documents/CV-LM/LM/Avenao/LM.pdf (1 page, 40540 
-bytes).
+{/usr/share/texlive/texmf-dist/
+fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/pala
+tino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.
+pfb>
+Output written on /home/vanell/Documents/CV-LM/LM/Ortec/LM.pdf (1 page, 41167 b
+ytes).
 PDF statistics:
  17 PDF objects out of 1000 (max. 8388607)
  11 compressed objects within 1 object stream

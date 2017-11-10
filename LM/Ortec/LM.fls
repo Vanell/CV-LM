@@ -1,10 +1,10 @@
-PWD /home/vanell/Documents/CV-LM/LM/Avenao
+PWD /home/vanell/Documents/CV-LM/LM/Ortec
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/vanell/Documents/CV-LM/LM/Avenao/LM.tex
-OUTPUT /home/vanell/Documents/CV-LM/LM/Avenao/LM.log
+INPUT /home/vanell/Documents/CV-LM/LM/Ortec/LM.tex
+OUTPUT /home/vanell/Documents/CV-LM/LM/Ortec/LM.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlttr2.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlttr2.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -47,9 +47,9 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/NF.lco
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/NF.lco
-INPUT /home/vanell/Documents/CV-LM/LM/Avenao/LM.aux
-INPUT /home/vanell/Documents/CV-LM/LM/Avenao/LM.aux
-OUTPUT /home/vanell/Documents/CV-LM/LM/Avenao/LM.aux
+INPUT /home/vanell/Documents/CV-LM/LM/Ortec/LM.aux
+INPUT /home/vanell/Documents/CV-LM/LM/Ortec/LM.aux
+OUTPUT /home/vanell/Documents/CV-LM/LM/Ortec/LM.aux
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplr8t.tfm
@@ -64,7 +64,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-1.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-1.def
-OUTPUT /home/vanell/Documents/CV-LM/LM/Avenao/LM.pdf
+OUTPUT /home/vanell/Documents/CV-LM/LM/Ortec/LM.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/palatino/pplrc8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
@@ -74,7 +74,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/palatino/pplr8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
-INPUT /home/vanell/Documents/CV-LM/LM/Avenao/LM.aux
+INPUT /home/vanell/Documents/CV-LM/LM/Ortec/LM.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb
